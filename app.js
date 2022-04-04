@@ -1,3 +1,24 @@
+var listaRefresh = [
+  "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+  "https://logowik.com/content/uploads/images/vercel1868.jpg"
+];
+var linkRefresh = [
+  "https://github.com/new",
+  "https://vercel.com/dashboard"
+];
+
+// Gerando todas as imagens pré-definidas
+for (var i = 0; i < listaRefresh.length; i++) {
+  const refresh = document.getElementById("listaRefresh");
+  refresh.innerHTML +=
+    "<a href='" +
+    linkRefresh[i] +
+    "' target='_blank' rel='noopener noreferrer'>" +
+    '<img class="capas" src=' +
+    listaRefresh[i] +
+    ">" +
+    "</a>";
+}
 var listaTripKit = [
     "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/zoom_zf3_f3_digital_field_recorder_1642674016_1686005.jpg",
     "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/zoom_iq7_ms_stereo_mic_1414678814_1090754.jpg",
@@ -91,6 +112,38 @@ var listaTripKit = [
       "</a>";
   }
   
+  var listaAT875R = [
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1614598239_IMG_1495138.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/e_image_ba06p_6_aluminum_telescoping_boom_1566484570_1501288.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/auray_wss_2012_pro_matrixwindsheild_20mm_di_1379496474_850316.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/Audio_Technica_AT8410A_AT8410A_Shock_Mount_1583236134_68138.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/rycote_037340_universal_shotgun_mount_for_1433324725_1155648.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/Rode_PG_1_PG1_Pistol_Grip_1233245803_577182.jpg"
+  ];
+  var linkAT875R = [
+    "https://www.youtube.com/watch?v=8NknNRy2uXQ&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/495302-REG/Audio_Technica_AT875R_AT875_Short_Condenser_Shotgun.html/reviews?sts=pi&pim=Y",
+    "https://www.bhphotovideo.com/c/product/1501288-REG/e_image_ba06p_6_aluminum_telescoping_boom.html/specs",
+    "https://www.bhphotovideo.com/c/product/850316-REG/auray_wss_2012_pro_matrixwindsheild_20mm_di.html/reviews",
+    "https://www.bhphotovideo.com/c/product/68138-REG/Audio_Technica_AT8410A_AT8410A_Shock_Mount.html/reviews",
+    "https://www.bhphotovideo.com/c/product/1155648-REG/rycote_037340_universal_shotgun_mount_for.html",
+    "https://www.bhphotovideo.com/c/product/577182-REG/Rode_PG_1_PG1_Pistol_Grip.html/overview"
+  ];
+  
+  // Gerando todas as imagens pré-definidas
+  for (var i = 0; i < listaAT875R.length; i++) {
+    const at875R = document.getElementById("listaAT875R");
+    at875R.innerHTML +=
+      "<a href='" +
+      linkAT875R[i] +
+      "' target='_blank' rel='noopener noreferrer'>" +
+      '<img class="capas" src=' +
+      listaAT875R[i] +
+      ">" +
+      "</a>";
+  }
+
   var listaExtra = [
     "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/zoom_zh6ab_h6_all_black_6_input_1585730760_1554843.jpg",
   
