@@ -81,7 +81,7 @@ var listaTripKit = [
       ">" +
       "</a>";
   }
-  var listaBoom = [
+  var listaMKE600 = [
     "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/Sennheiser_MKE_600_Shotgun_1616159147_878340.jpg",
   
     "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/auray_bp_47a_4_section_aluminum_boom_pole_1638873343_1606021.jpg",
@@ -90,7 +90,7 @@ var listaTripKit = [
     "https://static.bhphoto.com/images/multiple_images/images500x500/1379333153_IMG_338503.jpg",
     "https://static.bhphoto.com/images/multiple_images/images500x500/1620038880_IMG_1527903.jpg"
   ];
-  var linkBoom = [
+  var linkMKE600 = [
     "https://www.bhphotovideo.com/c/product/878340-REG/Sennheiser_MKE_600_Shotgun.html",
     "https://www.bhphotovideo.com/c/product/1606021-REG/auray_bp_47a_4_section_aluminum_boom_pole.html",
     "https://www.bhphotovideo.com/c/product/885660-REG/auray_dusm_1_universal_shock_mount.html",
@@ -100,14 +100,14 @@ var listaTripKit = [
   ];
   
   // Gerando todas as imagens pré-definidas
-  for (var i = 0; i < listaBoom.length; i++) {
-    const boom = document.getElementById("listaBoom");
-    boom.innerHTML +=
+  for (var i = 0; i < listaMKE600.length; i++) {
+    const mke600 = document.getElementById("listaMKE600");
+    mke600.innerHTML +=
       "<a href='" +
-      linkBoom[i] +
+      linkMKE600[i] +
       "' target='_blank' rel='noopener noreferrer'>" +
       '<img class="capas" src=' +
-      listaBoom[i] +
+      listaMKE600[i] +
       ">" +
       "</a>";
   }
@@ -140,6 +140,51 @@ var listaTripKit = [
       "' target='_blank' rel='noopener noreferrer'>" +
       '<img class="capas" src=' +
       listaAT875R[i] +
+      ">" +
+      "</a>";
+  }
+
+  var listaBoom = [
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1532022565_IMG_1031170.jpg",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/rode_ntg5_broadcast_shotgun_mic_1571845320_1512606.jpg",
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://www.bhphotovideo.com/cdn-cgi/image/format=auto,fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/azden_sgm_3500l_broadcast_shotgun_microphone_1556624935_1476011.jpg",
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1262078542_IMG_140602.jpg",
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1598883362_IMG_1410341.jpg",
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1533212132_IMG_1039406.jpg",
+    "https://cdn-icons-png.flaticon.com/512/324/324114.png",
+    "https://static.bhphoto.com/images/multiple_images/images500x500/1548857733_IMG_1132277.jpg"
+  ];
+  var linkBoom = [
+    "https://www.youtube.com/watch?v=q7rfwCFjBDg&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/1424787-REG/deity_microphones_smic_s_mic_shotgun_mic.html?sts=pi&pim=Y",
+    "https://www.bhphotovideo.com/c/product/1512606-REG/rode_ntg5_broadcast_shotgun_mic.html",
+    "https://www.youtube.com/watch?v=bv1xUShuUY0&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/1476011-REG/azden_sgm_3500l_broadcast_shotgun_microphone.html",
+    "https://www.youtube.com/watch?v=nCeoK1DcX1A&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/667706-REG/Sony_ECM674_9X_ECM_674_9X_Electret_Condenser.html",
+    "https://www.youtube.com/watch?v=DLqBMKcSCHo&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/1123986-REG/azden_sgm_250_shotgun_microphone.html?sts=pi-ps&pim=Y",
+    "https://www.youtube.com/watch?v=8FfftoGqCTM&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/1115089-REG/rode_rodntg4plus_ntg4_shotgun_microphone_with.html?sts=pi&pim=Y",
+    "https://www.youtube.com/watch?v=B8aE0loboMA&list=PLLQDQ5OW1X3I-i68wz8dQ6wgbX1FlVOe6&ab_channel=CurtisJudd",
+    "https://www.bhphotovideo.com/c/product/1115088-REG/rode_rodntg4_ntg4_shotgun_microphone_with.html"
+
+  ];
+  
+  // Gerando todas as imagens pré-definidas
+  for (var i = 0; i < listaBoom.length; i++) {
+    const boom = document.getElementById("listaBoom");
+    boom.innerHTML +=
+      "<a href='" +
+      linkBoom[i] +
+      "' target='_blank' rel='noopener noreferrer'>" +
+      '<img class="capas" src=' +
+      listaBoom[i] +
       ">" +
       "</a>";
   }
